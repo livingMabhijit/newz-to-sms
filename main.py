@@ -33,9 +33,9 @@ def read_news():
 def send_news():
     print('Sending message')
     new_list = read_news()
-    client = Client('ACa59186dc614bf22dbe691648c64877e0','4d1a150ad768729f1d352e8ddcb1cd91')
-    client.messages.create(to='+33752711105',
-                           from_ = '+12029315762',
+    client = Client('xxxxx','xxxxxxxxx')
+    client.messages.create(to='+33xxxxxx',
+                           from_ = '+12xxxxx',
                            body = new_list)
     
     
